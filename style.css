@@ -67,7 +67,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(https://swall.teahub.io/photos/small/190-1905111_library-books.jpg);
+  background-image: linear-gradient(to right top, #051937, #00436c, #007291, #00a39a, #00d188);
   color: var(--font-color);
   font-weight: 500;
   font-size: 16px;
@@ -253,7 +253,7 @@ article {
 .search-box {
   display: flex;
   padding: 16px 0;
-  background-color: transparent;
+  background-color: white;
   color: var(--font-color);
   text-overflow: ellipsis;
   font-weight: 600;

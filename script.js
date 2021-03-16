@@ -8,6 +8,8 @@ const getBooks = async (book) => {
   return data;
 };
 
+
+
 const extractThumbnail = ({ imageLinks }) => {
   const DEFAULT_THUMBNAIL = "icons/logo.svg";
   if (!imageLinks || !imageLinks.thumbnail) {
@@ -169,3 +171,4 @@ const windowOnClick = ({ target }) => {
 trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
+
